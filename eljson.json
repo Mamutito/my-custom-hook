@@ -1,0 +1,153 @@
+{
+  "id": "pf2e-ap180-the-smoking-gun",
+  "title": "Outlaws of Alkenstar - The Smoking Gun",
+  "description": "<p>With the chips down and the cards stacked against them, a crew of vengeance-seeking vigilantes must infiltrate Alkenstar's upper crust in order to clear their   names and halt a villain's plot to bring the city to its knees. In this action-packed finale, the characters must pull off a daring high-rise heist at a garish gala, shut down a necromancer's shocking schemes in a volatile hydropower plant, and dismantle their last remaining rival's master plan aboard a luxury gearboat, all before an explosive conclusion destined to blast the city apart!</p>",
+  "manifest": "https://cdn.paizo.com/foundry/modules/pf2e-ap180-the-smoking-gun/module.json",
+  "protected": false,
+  "url": "https://paizo.com/products/btq02e32?Pathfinder-Adventure-Path-180-The-Smoking-Gun-Bundle",
+  "version": "2.0.3",
+  "authors": [
+    {
+      "name": "Paizo",
+      "url": "https://paizo.com/",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "11.302",
+    "verified": "11"
+  },
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://cdn.paizo.com/e7fd0eeb-9d7d-006b-7558-1a3e2f7bd8df/ef297e49-2178-4e1d-acce-eccf2203b58b/PZO90180.jpg",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "icon",
+      "url": "https://cdn.paizo.com/image/navigation/Nav-Logo-Global.png",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "setup",
+      "caption": "Outlaws of Alkenstar - The Smoking Gun",
+      "thumbnail": "modules/pf2e-ap180-the-smoking-gun/assets/thumbnails/thumbnail.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "adventures",
+      "label": "Outlaws of Alkenstar - The Smoking Gun",
+      "path": "packs/adventures",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Adventure",
+      "banner": "modules/pf2e-ap180-the-smoking-gun/assets/thumbnails/banner.webp",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "index.js"
+  ],
+  "styles": [],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "flags": {
+          "sigil": {
+            "localDevVersion": {
+              "distPath": "dist"
+            }
+          }
+        },
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "5.0.2",
+          "verified": "5.0.2"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "pf2e-ap178-180-outlaws-of-alkenstar",
+        "type": "module",
+        "manifest": "https://downloads.paizo.com/foundry-public/modules/pf2e-ap178-180-outlaws-of-alkenstar/module.json",
+        "flags": {
+          "sigil": {
+            "isSigilModule": true
+          }
+        }
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-ap180-the-smoking-gun": {
+      "pf2e-art": "modules/pf2e-ap180-the-smoking-gun/image-mapping.json"
+    },
+    "pf2e-ap178-180-outlaws-of-alkenstar": {
+      "adventureImporter": {
+        "Compendium.pf2e-ap180-the-smoking-gun.adventures.Adventure.pf2ap180adv00001": {
+          "initialSceneId": "X8qMatwcDSJBPI1G",
+          "initialJournalEntryId": "pf2ap18000thesmo",
+          "initialJournalPageId": "00landing0000000",
+          "initialLoginScreenBackground": "assets/scenes/fvtt-login.webp",
+          "additionalItems": [],
+          "removeItems": {}
+        }
+      }
+    },
+    "sigil": {
+      "sheetClass": "OutlawsofAlkenstarJournalSheet",
+      "parent": "pf2e-ap178-180-outlaws-of-alkenstar",
+      "cssClass": "outlawsofalkenstar",
+      "productTitle": "Outlaws of Alkenstar",
+      "productSlug": "OutlawsofAlkenstar",
+      "featureConfigurations": {},
+      "adventureExports": [
+        {
+          "_id": "pf2ap180adv00001",
+          "name": "Outlaws of Alkenstar - The Smoking Gun",
+          "img": "modules/pf2e-ap180-the-smoking-gun/assets/art/PZO90180_Sulfur_Zombies_Hydroplant_Fight_FINAL.webp",
+          "caption": "",
+          "description": "<p>Vengeance-seeking vigilantes must infiltrate Alkenstar’s upper crust, master a potent combination of eldritch magic and clockwork engineering, and wield the awesome power of black powder to stop their archenemy’s plot to upend the city. In this action-packed finale, the party members face their greatest challenges yet. Can they clear their names and settle their gunmetal grudges? Or will the forces of evil draw first?</p>",
+          "sort": 0,
+          "_include": {
+            "folders": [
+              "vIspXH09fnsG30ku",
+              "V9d2D4AHdXa7p8PH",
+              "nKeHZhUQholTM533",
+              "pf2ap18004thesmo",
+              "2pdRjN35itIq1okG"
+            ]
+          },
+          "_exclude": {},
+          "flags": {
+            "core": {
+              "sheetClass": "pf2e-ap178-180-outlaws-of-alkenstar.SigilPF2EAdventureImporter"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "packFolders": [
+    {
+      "name": "Outlaws of Alkenstar",
+      "sorting": "m",
+      "color": "#8c160f",
+      "packs": [
+        "adventures"
+      ],
+      "folders": []
+    }
+  ]
+}
